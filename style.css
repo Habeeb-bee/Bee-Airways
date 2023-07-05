@@ -63,7 +63,7 @@ nav a {
 /* home-hero */
 
 .home-hero {
-    background-image: linear-gradient(to right, rgba(156, 156, 74, 0.712), rgba(231, 231, 19, 0.863)), url(../beeairs/img/header-img.jpg);
+    background-image: linear-gradient(to right, rgba(156, 156, 74, 0.621), rgba(231, 231, 19, 0.663)), url(../beeairs/img/header-img.jpg);
     padding: 7em 0;
 }
 
