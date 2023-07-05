@@ -1,0 +1,85 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+
+/* logo */
+.logo{
+    left: 20px;
+    padding: 15px;
+}
+
+/* header */
+
+header {
+    margin: .45em;
+    position: absolute;
+    left: 0;
+    right: 0;
+
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+nav li {
+    display: inline-block;
+    margin: .4em;
+}
+
+nav a {
+
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: .25em;
+    color: #fff;
+}
+
+/* home-hero */
+
+.home-hero {
+    background-image: linear-gradient(to right, rgba(156, 156, 74, 0.712), rgba(231, 231, 19, 0.863)), url(../beeairs/img/header-img.jpg);
+    padding: 7em 0;
+}
+
+
+
+/* title */
+
+.title{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+}
+
+.title-span{
+    font-weight: 100;
+    display: block;
+    font-size: 1.2rem;
+}
+
