@@ -1,5 +1,4 @@
 
-
 *{
     margin: 0;
     padding: 0;
@@ -21,6 +20,47 @@ img {
 .container{
     width: 95%;
     margin: 0 auto;
+}
+
+/* animation */
+@keyframes moveInLeft {
+    0% {
+
+        opacity: 0;
+        transform: translateX(-2rem);
+    }
+
+    80% {
+        opacity: .8;
+        transform: translateX(1.5rem) ;
+
+    }
+
+    100% {
+
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInRight {
+    0% {
+
+        opacity: 0;
+        transform: translateX(2rem);
+    }
+
+    80% {
+        opacity: .8;
+        transform: translateX(-1.5rem) ;
+
+    }
+
+    100% {
+
+        opacity: 1;
+        transform: translate(0);
+    }
 }
 
 /* logo */
@@ -62,24 +102,39 @@ nav a {
 
 /* home-hero */
 
-.home-hero {
-    background-image: linear-gradient(to right, rgba(156, 156, 74, 0.621), rgba(231, 231, 19, 0.663)), url(../beeairs/img/header-img.jpg);
+ .home-hero {
+    background-image: linear-gradient(to right, rgba(156, 156, 74, 0.653), rgba(231, 231, 19, 0.788)), url(./header-img.jpg);
     padding: 7em 0;
-}
+} 
 
 
 
 /* title */
 
 .title{
+    color: #fff;
+
+}
+.t1{
     font-size: 1.5rem;
     font-weight: 500;
     color: white;
+    animation: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
 }
 
 .title-span{
     font-weight: 100;
     display: block;
     font-size: 1.2rem;
+
+    
+} 
+
+.t2{
+    animation: moveInRight;
+    animation-duration: 1s;
 }
+
 
