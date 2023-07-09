@@ -114,6 +114,8 @@ nav a {
  .home-hero {
     background-image: linear-gradient(to right, rgba(156, 156, 74, 0.653), rgba(231, 231, 19, 0.788)), url(./header-img.jpg);
     padding: 7em 0;
+    background-repeat: no-repeat;
+    background-size: cover;
 } 
 
 
@@ -178,7 +180,7 @@ nav a {
     text-decoration: none;
     animation: moveUp 1s ;
     animation-timing-function: ease-in-out;
-    font-size: .8;
+    font-size: 1rem;
     font-weight: 200 ;
      
    
@@ -188,15 +190,32 @@ nav a {
 /***************** flight *************/
 
 .flight-home {
-    height: 100vh;
+    height: 90vh;
     background-image: 
     linear-gradient(to right, rgba(156, 156, 74, 0.653), rgba(231, 231, 19, 0.788)), url(./header-img.jpg);
     background-size: cover;
+    filter: blur(3px);
+    position: relative;
+    
 }
 
 .flight-container {
-    background-color: linear-gradient(to right, rgba(92, 92, 65, 0.653), rgba(170, 170, 13, 0.788));
-    color: #fff;
-    padding: 5em 2em 5em 2em ;
-    box-shadow: 20px 20px 20px 20px #00000083;
+    /* background-color: linear-gradient(to right, rgba(92, 92, 65, 0.653), rgba(170, 170, 13, 0.788));
+    
+ */ 
+position: absolute;
+top: 25%;
+left: 50%;
+transform: translateX(-50%);
+z-index: 2;
+text-align: center;
+padding: 5em;
+color: #fff;
+font-size: .8rem;
+font-weight: 200 ;
+border: 2px solid ;
+box-shadow: 2px 5px 10px #00000083;
+background-color: #16161633;
+
+
 }
