@@ -21,4 +21,29 @@
     animation-timing-function: ease-in-out;
     font-size: 1rem;
     font-weight: 200; }
+
+    .flex-btn{
+      background-color: rgba(212, 209, 0, 0.836);
+    color: #9e9e9e;
+    text-decoration: none;
+    animation-timing-function: ease-in-out;
+    font-size: 1rem;
+    font-weight: 200;
+
+    }
   
+
+    .flex-btn:link,
+  .flex-btn:visited {
+    padding: 1em;
+    border-radius: 100px;
+    transition: all .4s;
+    display: inline-block; }
+  
+  .flex-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px #00000033; }
+  
+  .flex-btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px #0000003a; }
