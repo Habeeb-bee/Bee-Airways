@@ -1,31 +1,32 @@
 .home-hero {
-  background-image: $bkg-img;
-  padding: 7em 0;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-image: linear-gradient(to right, $color-prrimary-darkbrown, $color-prrimary-lightbrown),url(/header-img.jpg);
+    padding: 7em 0;
+    background-repeat: no-repeat;
+    background-size: cover;
 
-   /* title */
+     /* title */
 
-  .title-container {
-    margin: 40px; 
+    .title-container {
+      margin: 40px; 
+    
+  .title {
+    color: $color-primary-white; }
+  }
   
-.title {
-  color: $color-primary-white; }
-}
-
-.t1 {
-  font-size: 1.5rem;
-  font-weight: 500;
-  animation: moveInLeft;
-  animation-duration: 1s;
-  animation-timing-function: ease-out; }
-
-.title-span {
-  font-weight: 100;
-  display: block;
-  font-size: 1.2rem; }
-
-.t2 {
-  animation: moveInRight;
-  animation-duration: 1s; }
-}
+  .t1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    animation: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out; }
+  
+  .title-span {
+    font-weight: 100;
+    display: block;
+    font-size: 1.2rem; }
+  
+  .t2 {
+    animation: moveInRight;
+    animation-duration: 1s; }
+  }
+  

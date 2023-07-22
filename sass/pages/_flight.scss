@@ -1,23 +1,24 @@
 .flight-home {
-  height: 90vh;
-  background-image:$bkg-img;
-  background-size: cover;
-  filter: blur(3px);
-  position: relative;
- }
-
-.flight-container {
+    height: 90vh;
+    background-image: linear-gradient(to right, $color-prrimary-darkbrown, $color-prrimary-lightbrown),url(/header-img.jpg);;
+    background-size: cover;
+    filter: blur(3px);
+    position: relative;
+   }
   
-  position: absolute;
-  top: 25%;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 2;
-  text-align: center;
-  padding: 5em;
-  color: $color-primary-white;
-  font-size: .8rem;
-  font-weight: 200;
-  border: 2px solid;
-  box-shadow: 2px 5px 10px #00000083;
-  background-color: #16161633; }
+  .flight-container {
+    
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    text-align: center;
+    padding: 5em;
+    color: $color-primary-white;
+    font-size: .8rem;
+    font-weight: 200;
+    border: 2px solid;
+    box-shadow: 2px 5px 10px #00000083;
+    background-color: #16161633; }
+  
