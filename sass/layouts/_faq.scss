@@ -1,0 +1,72 @@
+.faq-head h2{
+    padding: 1em;
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 95%;
+    margin: 0 auto;
+    background-color: rgb(255, 247, 212);
+    color: rgb(34, 27, 27);
+}
+
+.faq-head p{
+    padding: 1em;
+    font-size: 1rem;
+    font-weight: 300;
+    width: 95%;
+    margin: 0 auto;
+    background-color: rgb(255, 247, 212);
+    color: rgb(34, 27, 27);
+}
+
+.faq-container{
+    background-color: rgb(255, 247, 212);
+    padding: 2em;
+    width: 95%;
+    margin: 0 auto;
+    color: rgb(76, 61, 61);
+}
+
+
+.faq-disc{
+
+    .faq-ul {
+        list-style: none;
+
+        .faq-li{
+            position: relative;
+
+            a{
+                text-align: start;
+                display: block;
+                text-decoration: none;
+            }
+
+            .dropdown {
+
+                width: 100%;
+                background-color: $color-primary-deepbrown;
+                color: $color-primary-white;
+                position: absolute;
+                display: none;
+                z-index: 999;
+            }
+
+
+        }
+
+        .faq-li:hover ul.dropdown{
+
+            display: block;
+        }
+
+    }
+
+    
+
+    
+
+
+}
+
+
+

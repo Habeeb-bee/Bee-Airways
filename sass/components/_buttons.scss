@@ -15,15 +15,16 @@
   
   .button-white {
     background-color: $color-primary-white;
-    color: #9e9e9e;
+    color: $color-primary-deepbrown;
+    letter-spacing: .1rem;
     text-decoration: none;
     animation: moveUp 1s;
     animation-timing-function: ease-in-out;
     font-size: 1rem;
-    font-weight: 200; }
+    font-weight: 400; }
 
     .flex-btn{
-      background-color:rgba(156, 156, 74, 0.653);
+      background-color:$color-primary-deepbrown;
     color: #ffffffdc;
     text-decoration: none;
     animation-timing-function: ease-in-out;
@@ -47,5 +48,36 @@
     box-shadow: 0 10px 20px #00000033; }
   
   .flex-btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px #0000003a; }
+
+
+    .cta-btn{
+
+      background-color: $color-primary-deepbrown;
+    color: #ffffffdc;
+    text-decoration: none;
+    animation-timing-function: ease-in-out;
+    font-size: .8rem;
+    padding: .5rem ;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin: 2em;
+
+
+    }
+
+    .cta-btn:link,
+  .cta-btn:visited {
+    border-radius: 100px;
+    transition: all .4s;
+    display: inline-block; }
+  
+  .cta-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px #00000033; }
+  
+  .cta-btn:active {
     transform: translateY(-1px);
     box-shadow: 0 5px 10px #0000003a; }
