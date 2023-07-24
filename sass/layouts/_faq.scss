@@ -1,9 +1,26 @@
+#faq {
+    background-color:rgb(255, 247, 212) ;
+    width: 95%;
+    margin: 0 auto;
+}
+
+hr{
+
+    border-style: none;
+    border-top-style: dotted ;
+    border-width: 5px;
+    width: 10%;
+    margin: .5em auto;
+   border-color: rgba(34, 27, 27, 0.486) ;
+   border-spacing: 2em;
+
+
+}
+
 .faq-head h2{
     padding: 1em;
     font-size: 1.5rem;
     font-weight: 500;
-    width: 95%;
-    margin: 0 auto;
     background-color: rgb(255, 247, 212);
     color: rgb(34, 27, 27);
 }
@@ -23,55 +40,44 @@
     padding: 2em;
     width: 95%;
     margin: 0 auto;
-    color: rgb(76, 61, 61);
+
 }
 
 
 .faq-disc{
 
     .faq-ul {
-        list-style: none;
+        list-style:none;
 
         .faq-li{
-            position: relative;
-            padding: 2em;
+            text-align: start;
+            padding: 1em;
+            margin-bottom: 2em;
+            background-color:   rgb(228, 220, 186);
+            color: rgb(34, 27, 27);
             
 
             a{
-                text-align: start;
+                
                 display: block;
                 text-decoration: none;
-                color: rgb(34, 27, 27) ;
+                color: $color-primary-white ;
                 
             }
 
-            .dropdown {
-
-                width: 100%;
-                background-color: $color-primary-deepbrown;
-                color: $color-primary-white;
-                position: absolute;
-                display: none;
-                z-index: 999;
-            }
-
-
-        }
-
-        .faq-li:hover ul.dropdown{
-
-            display: block;
            
+
+
         }
+
+        
 
     }
 
     
 
-    
-
-
 }
+
 
 
 
