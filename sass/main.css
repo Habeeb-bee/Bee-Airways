@@ -157,6 +157,37 @@ hr {
   border-spacing: 2em;
 }
 
+footer {
+  background-color: rgb(70, 55, 55);
+  color: rgb(255, 247, 212);
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: start;
+}
+
+.footer-ul {
+  padding: 3em 3em 3em 0;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+li {
+  margin-bottom: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 247, 212);
+}
+
+.col-1 {
+  padding: 2em;
+}
+
 .plan-disc {
   color: rgb(34, 27, 27);
   padding: 2rem 2rem 0.5rem 2rem;
@@ -285,11 +316,6 @@ hr {
   margin-bottom: 2em;
   background-color: rgb(228, 220, 186);
   color: rgb(34, 27, 27);
-}
-.faq-disc .faq-ul .faq-li a {
-  display: block;
-  text-decoration: none;
-  color: #fff;
 }
 
 .flight-home {
