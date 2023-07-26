@@ -51,7 +51,7 @@ img {
   margin: 0 auto; }
 
 .home-hero {
-  background-image: linear-gradient(to right, rgba(146, 97, 0, 0.884), rgba(255, 217, 90, 0.678)), url(/home-img.jpg);
+  background-image: linear-gradient(to right, rgba(146, 97, 0, 0.884), rgba(255, 217, 90, 0.678)), url(img/home-img.jpg);
   padding: 7em 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -278,23 +278,10 @@ hr {
   height: 90vh;
   background-image: linear-gradient(to right, rgba(146, 97, 0, 0.884), rgba(255, 217, 90, 0.678)), url(/img/home-img.jpg);
   background-size: cover;
-  filter: blur(3px);
-  position: relative; }
+  filter: blur(3px); }
 
 .flight-container {
-  position: absolute;
-  top: 25%;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 2;
-  text-align: center;
-  padding: 5em;
-  color: #fff;
-  font-size: .8rem;
-  font-weight: 200;
-  border: 2px solid;
-  box-shadow: 2px 5px 10px #00000083;
-  background-color: #16161633; }
+  background-image: linear-gradient(to right, rgba(146, 97, 0, 0.884), rgba(255, 217, 90, 0.678)), url(/home-img.jpg); }
 
 .buttons:link,
 .buttons:visited {
