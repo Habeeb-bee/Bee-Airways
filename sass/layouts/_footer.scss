@@ -1,0 +1,33 @@
+
+footer {
+    background-color: #463737;
+    color: #fff7d4;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: start;
+    gap: 3em;
+    padding: 2em; }
+  
+  .footer-ul {
+    list-style: none;
+    text-transform: uppercase; }
+  
+  li {
+    margin-bottom: 1em; }
+  
+  a {
+    text-decoration: none;
+    color: #fff7d4; }
+  
+  .col-1 {
+    width: 100%; }
+  
+  .col-2 {
+    width: 50%; }
+  
+  .col-3 {
+    width: 33.333%; }
