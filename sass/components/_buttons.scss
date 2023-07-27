@@ -74,3 +74,35 @@
 .cta-btn:active {
   transform: translateY(-1px);
   box-shadow: 0 5px 10px #0000003a; }
+
+  
+    
+.book-btn {
+  background-color: #4c3d3d;
+  color: #ffffffdc;
+  text-decoration: none;
+  animation: moveUp .3s;
+  animation-timing-function: ease-in-out;
+  font-size: .8rem;
+  padding: .5rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  margin: 1.5em; 
+  margin-right: 3rem;
+}
+
+.book-btn:link,
+.book-btn:visited {
+  border-radius: 100px;
+  transition: all .4s;
+  display: inline-block; }
+
+.book-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px #00000033; }
+
+.book-btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px #0000003a; }
+  

@@ -21,9 +21,7 @@
 
     
   
-  img {
-    max-width: 100%;
-    height: auto; }
+
 
     .book-container{
         padding: 10rem 0;
@@ -34,9 +32,10 @@
 
     .book{
 
+        border-radius: 0.4rem;
         background-image: linear-gradient(105deg,
-         rgba(#fff, .9) 0%,
-         rgba(#fff, .9) 50%,
+         rgba(#fff, .7) 0%,
+         rgba(#fff, .7) 50%,
          transparent 50%),url(../img/flight-img.jpg);
         background-size: 110%;
         background-repeat: no-repeat;
@@ -49,6 +48,62 @@
 
     .book-form {
         width:50%;
-        padding: 2rem 1rem;
+        padding: 1.5rem 1rem;
+
+        
     }
   
+    .form-group:not(:last-child){
+        margin-bottom: 1rem;
+    }
+
+    .form-input{
+        font-size: .85em;
+        padding: .3rem;
+        border-radius: 2px;
+        border: none;
+        border-bottom: 2px solid transparent ;
+        width: 90%;
+        background-color: rgba(#fff, .95);
+        display: block;
+        transition: all .3s;
+    }
+
+    .form-input:focus {
+        outline: none;
+        box-shadow: 0 1rem 2rem rgba( black, .2);
+        border-bottom: 3px solid $color-primary-deepbrown;
+
+        &::-webkit-input-placeholder{
+            color: #999;
+        }
+
+        &:focus:invalid{
+            border-bottom: 3px solid rgba(255, 0, 0, 0.767);
+
+        }
+    }
+
+
+    .form-label {
+        font-size: .7rem;
+        font-weight: 700;
+        margin-right: 6.5rem;
+        display: block;
+        transition:all 1s;
+    }
+
+    .form-label-2 {
+        font-size: .7rem;
+        font-weight: 700;
+        margin-right: 5rem;
+        display: block;
+        transition:all 1s;
+    }
+
+    .form-input:placeholder-shown + label {
+        opacity: 0;
+        visibility: hidden;
+
+    }
+
