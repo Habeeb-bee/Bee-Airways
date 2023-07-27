@@ -6,11 +6,14 @@
   
   body {
     font-family: sans-serif;
-    color: $color-primary-white;
-    text-align: center;
-    width: 99%;
-    margin: auto;
-   }
+  text-align: center;
+  width: 99vw;
+  margin: auto;
+  background-size:100vw;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to right, rgba(146, 97, 0, 0.884), rgba(255, 217, 90, 0.678)), url(../img/home-img.jpg);
+background-attachment: fixed; }
+   
     
   
   img {

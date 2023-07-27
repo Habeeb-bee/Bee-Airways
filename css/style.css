@@ -37,10 +37,13 @@
 
 body {
   font-family: sans-serif;
-  color: #fff;
   text-align: center;
-  width: 99%;
-  margin: auto; }
+  width: 99vw;
+  margin: auto;
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to right, rgba(146, 97, 0, 0.884), rgba(255, 217, 90, 0.678)), url(../img/home-img.jpg);
+  background-attachment: fixed; }
 
 img {
   max-width: 100%;
@@ -51,11 +54,9 @@ img {
   margin: 0 auto; }
 
 .home-hero {
-  background-image: linear-gradient(to right, rgba(146, 97, 0, 0.884), rgba(255, 217, 90, 0.678)), url(../img/home-img.jpg);
   padding: 7em 0;
   background-repeat: no-repeat;
-  background-size: cover;
-  /* title */ }
+  background-size: cover; }
 
 .home-hero .title-container {
   margin: 40px; }
@@ -79,7 +80,6 @@ img {
   animation: moveInRight;
   animation-duration: 1s; }
 
-/* header */
 header {
   margin: .45em;
   position: absolute;
@@ -280,6 +280,31 @@ hr {
   margin-bottom: 2em;
   background-color: #e4dcba;
   color: #221b1b; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+.book-container {
+  padding: 10rem 0;
+  width: 95%;
+  margin: 0 auto; }
+
+.book {
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/flight-img.jpg);
+  background-size: 110%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 14rem; }
+
+.book-form {
+  width: 50%;
+  padding: 2rem 1rem; }
 
 .buttons:link,
 .buttons:visited {
