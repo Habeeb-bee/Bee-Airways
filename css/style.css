@@ -80,32 +80,6 @@ img {
   animation: moveInRight;
   animation-duration: 1s; }
 
-header {
-  margin: .45em;
-  position: absolute;
-  left: 0;
-  right: 0; }
-
-header .logo {
-  left: 20px;
-  padding: 15px; }
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none; }
-
-nav li {
-  display: inline-block;
-  margin: .4em; }
-
-nav a {
-  font-weight: 600;
-  text-decoration: none;
-  font-size: 1rem;
-  padding: .25em;
-  color: #fff; }
-
 #cta {
   background-color: #fff7d4;
   width: 95%;
@@ -281,6 +255,63 @@ hr {
   background-color: #e4dcba;
   color: #221b1b; }
 
+.navigation .checkbox {
+  display: none; }
+
+.navigation .nav-button {
+  background-color: #fff;
+  height: 4rem;
+  width: 4rem;
+  position: fixed;
+  border-radius: 50%;
+  top: 1.5rem;
+  right: 1.5rem;
+  z-index: 2000; }
+
+.navigation .nav-background {
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 50%;
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  background-image: radial-gradient(rgba(146, 97, 0, 0.966), rgba(255, 217, 90, 0.938));
+  transform: scale(80); }
+
+.navigation .nav-nav {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1500; }
+
+.navigation .nav-list {
+  position: absolute;
+  text-align: center;
+  top: 15%;
+  left: 0;
+  right: 0;
+  list-style: none; }
+
+.navigation .nav-item {
+  margin: 1.5rem; }
+
+.navigation .nav-link:link, .navigation .nav-link:visited {
+  display: inline-block;
+  font-size: 1rem;
+  padding: .5px;
+  font-weight: 300;
+  text-decoration: none;
+  background-image: linear-gradient(120deg, transparent 0%, transparent 50%, rgba(255, 217, 90, 0.678) 50%);
+  background-size: 250%;
+  transition: all .4s; }
+
+.navigation .nav-link:hover, .navigation .nav-link:active {
+  background-position: 100%;
+  color: #4c3d3d;
+  transform: translateX(1rem); }
+
 * {
   margin: 0;
   padding: 0;
@@ -294,17 +325,17 @@ hr {
 .book {
   border-radius: 0.4rem;
   background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 50%, transparent 50%), url(../img/flight-img.jpg);
-  background-size: 110%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 14rem; }
+  height: 20rem; }
 
 .book-form {
   width: 50%;
   padding: 1.5rem 1rem; }
 
 .form-group:not(:last-child) {
-  margin-bottom: 1rem; }
+  margin-bottom: 2rem; }
 
 .form-input {
   font-size: .85em;

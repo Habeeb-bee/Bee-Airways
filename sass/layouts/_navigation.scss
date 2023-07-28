@@ -1,0 +1,83 @@
+.navigation {
+    .checkbox {
+        display: none;
+
+
+    }
+
+    .nav-button {
+        background-color: $color-primary-white;
+        height: 4rem;
+        width: 4rem;
+        position: fixed;
+        border-radius: 50%;
+        top: 1.5rem;
+        right: 1.5rem;
+        z-index: 2000;
+
+
+    }
+
+    
+.nav-background{
+
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50%;
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    background-image: radial-gradient( rgba(146, 97, 0, 0.966), rgba(255, 217, 90, 0.938));
+    transform: scale(80);
+}
+
+.nav-nav{
+
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1500;
+}
+
+.nav-list{
+    position: absolute;
+    text-align: center;
+    top: 15%;
+    left: 0;
+    right: 0;
+    // transform: translate(-50%, -50%);
+    list-style: none;
+   
+}
+.nav-item{
+    margin: 1.5rem;
+}
+
+.nav-link{
+    &:link,
+    &:visited{
+        display: inline-block;
+        font-size: 1rem;
+        padding: .5px;
+        font-weight: 300;
+        text-decoration: none;
+        background-image: linear-gradient( 120deg, transparent 0%, transparent 50%, $color-primary-lightbrown 50%);
+        background-size: 250%;
+        transition: all .4s;
+    }
+
+    &:hover,
+    &:active {
+        background-position: 100%;
+        color:$color-primary-deepbrown ;
+        transform: translateX(1rem);
+    }
+
+}
+
+    
+
+
+}
