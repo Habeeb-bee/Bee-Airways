@@ -5,7 +5,7 @@
 // }
 
 
-//    .book {
+//    .flight {
 //     background-image: url(../img/flight-img.jpg);
 //     background-size: 100%;
    
@@ -23,14 +23,14 @@
   
 
 
-    .book-container{
+    .flight-container{
         padding: 10rem 0;
         width: 95%;
         margin: 0 auto;
         
     }
 
-    .book{
+    .flight{
 
         border-radius: 0.4rem;
         background-image: linear-gradient(105deg,
@@ -44,7 +44,7 @@
     
     }
 
-    .book-form {
+    .flight-form {
         width:50%;
         padding: 1.5rem 1rem;
 
@@ -91,13 +91,7 @@
         transition:all 1s;
     }
 
-    .form-label-2 {
-        font-size: .7rem;
-        font-weight: 700;
-        margin-right: 5rem;
-        display: block;
-        transition:all 1s;
-    }
+   
 
     .form-input:placeholder-shown + label {
         opacity: 0;

@@ -260,18 +260,20 @@ hr {
 
 .navigation .nav-button {
   background-color: #fff;
-  height: 4rem;
-  width: 4rem;
+  height: 3.5rem;
+  width: 3.5rem;
   position: fixed;
   border-radius: 50%;
-  top: 1.5rem;
-  right: 1.5rem;
+  top: 1rem;
+  right: 1rem;
   z-index: 2000;
-  box-shadow: 0 1rem 3rem #00000033; }
+  box-shadow: 0 1rem 3rem #00000033;
+  text-align: center;
+  cursor: pointer; }
 
 .navigation .nav-background {
-  height: 3rem;
-  width: 3rem;
+  height: 2rem;
+  width: 2rem;
   border-radius: 50%;
   position: fixed;
   top: 2rem;
@@ -322,6 +324,41 @@ hr {
   width: 100%;
   opacity: 1; }
 
+.navigation .nav-icon {
+  position: relative;
+  margin-top: 1.8rem; }
+  .navigation .nav-icon, .navigation .nav-icon::before, .navigation .nav-icon::after {
+    width: 1.7rem;
+    height: 1.5px;
+    background-color: #4c3d3d;
+    display: inline-block; }
+  .navigation .nav-icon::before, .navigation .nav-icon::after {
+    content: "";
+    left: 0;
+    position: absolute;
+    transition: all .25s; }
+  .navigation .nav-icon::before {
+    top: -.8rem; }
+  .navigation .nav-icon::after {
+    top: .8rem; }
+
+.navigation .nav-button:hover .nav-icon::before {
+  top: -1rem; }
+
+.navigation .nav-button:hover .nav-icon::after {
+  top: 1rem; }
+
+.navigation .checkbox:checked + .nav-button .nav-icon {
+  background-color: transparent; }
+
+.navigation .checkbox:checked + .nav-button .nav-icon::before {
+  transform: rotate(45deg);
+  top: 0; }
+
+.navigation .checkbox:checked + .nav-button .nav-icon::after {
+  top: 0;
+  transform: rotate(-45deg); }
+
 * {
   margin: 0;
   padding: 0;
@@ -338,7 +375,7 @@ hr {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 20rem; }
+  height: 15rem; }
 
 .book-form {
   width: 50%;
@@ -349,7 +386,7 @@ hr {
 
 .form-input {
   font-size: .85em;
-  padding: .3rem;
+  padding: .4rem;
   border-radius: 2px;
   border: none;
   border-bottom: 2px solid transparent;
@@ -378,6 +415,62 @@ hr {
   font-size: .7rem;
   font-weight: 700;
   margin-right: 5rem;
+  display: block;
+  transition: all 1s; }
+
+.form-input:placeholder-shown + label {
+  opacity: 0;
+  visibility: hidden; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.flight-container {
+  padding: 10rem 0;
+  width: 95%;
+  margin: 0 auto; }
+
+.flight {
+  border-radius: 0.4rem;
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 50%, transparent 50%), url(../img/flight-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 15rem; }
+
+.flight-form {
+  width: 50%;
+  padding: 1.5rem 1rem; }
+
+.form-group:not(:last-child) {
+  margin-bottom: 2rem; }
+
+.form-input {
+  font-size: .85em;
+  padding: .4rem;
+  border-radius: 2px;
+  border: none;
+  border-bottom: 2px solid transparent;
+  width: 90%;
+  background-color: rgba(255, 255, 255, 0.95);
+  display: block;
+  transition: all .3s; }
+
+.form-input:focus {
+  outline: none;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  border-bottom: 3px solid #4c3d3d; }
+  .form-input:focus::-webkit-input-placeholder {
+    color: #999; }
+  .form-input:focus:focus:invalid {
+    border-bottom: 3px solid rgba(255, 0, 0, 0.767); }
+
+.form-label {
+  font-size: .7rem;
+  font-weight: 700;
+  margin-right: 6.5rem;
   display: block;
   transition: all 1s; }
 
@@ -486,5 +579,33 @@ hr {
   box-shadow: 0 10px 20px #00000033; }
 
 .book-btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px #0000003a; }
+
+.flight-btn {
+  background-color: #4c3d3d;
+  color: #ffffffdc;
+  text-decoration: none;
+  animation: moveUp .3s;
+  animation-timing-function: ease-in-out;
+  font-size: .8rem;
+  padding: .5rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  margin: 1.5em;
+  margin-right: 3rem; }
+
+.flight-btn:link,
+.flight-btn:visited {
+  border-radius: 100px;
+  transition: all .4s;
+  display: inline-block; }
+
+.flight-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px #00000033; }
+
+.flight-btn:active {
   transform: translateY(-1px);
   box-shadow: 0 5px 10px #0000003a; }

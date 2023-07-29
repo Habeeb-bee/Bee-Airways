@@ -11,23 +11,25 @@
 
     .nav-button {
         background-color: $color-primary-white;
-        height: 4rem;
-        width: 4rem;
+        height: 3.5rem;
+        width: 3.5rem;
         position: fixed;
         border-radius: 50%;
-        top: 1.5rem;
-        right: 1.5rem;
+        top: 1rem;
+        right: 1rem;
         z-index: 2000;
         box-shadow: 0 1rem 3rem #00000033;
-
-
+        text-align: center;
+        cursor: pointer;
     }
+
+
 
     
 .nav-background{
 
-    height: 3rem;
-    width: 3rem;
+    height: 2rem;
+    width: 2rem;
     border-radius: 50%;
     position: fixed;
     top: 2rem;
@@ -94,6 +96,59 @@
     opacity: 1;
    
 }
+
+
+.nav-icon{
+    position: relative;
+    margin-top: 1.8rem;
+
+
+    &,
+    &::before,
+    &::after {
+        width: 1.7rem;
+        height: 1.5px;
+        background-color:$color-primary-deepbrown ;
+        display: inline-block;
+    }
+
+    &::before,
+    &::after{
+        content: "";
+        left: 0;
+         position: absolute;
+         transition: all .25s;
+    }
+
+    &::before{ top: -.8rem;}
+    &::after{ top: .8rem;}
+}
+
+.nav-button:hover .nav-icon::before {
+    top: -1rem;
+}
+
+.nav-button:hover .nav-icon::after {
+    top: 1rem;
+}
+
+.checkbox:checked + .nav-button .nav-icon {
+  background-color: transparent;
+   
+}
+
+.checkbox:checked + .nav-button .nav-icon::before {
+   transform: rotate(45deg);
+   top: 0;
+     
+  }
+
+
+  .checkbox:checked + .nav-button .nav-icon::after {
+    top: 0;
+    transform: rotate(-45deg);
+      
+   }
 
 
 }
