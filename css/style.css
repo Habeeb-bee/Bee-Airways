@@ -259,7 +259,7 @@ hr {
   display: none; }
 
 .navigation .nav-button {
-  background-color: #fff;
+  background-color: #fff7d4;
   height: 3.5rem;
   width: 3.5rem;
   position: fixed;
@@ -438,14 +438,14 @@ hr {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 15rem; }
+  height: 20rem; }
 
 .flight-form {
   width: 50%;
   padding: 1.5rem 1rem; }
 
 .form-group:not(:last-child) {
-  margin-bottom: 2rem; }
+  margin-bottom: 1.8rem; }
 
 .form-input {
   font-size: .85em;
@@ -470,13 +470,28 @@ hr {
 .form-label {
   font-size: .7rem;
   font-weight: 700;
-  margin-right: 6.5rem;
+  margin-right: 8.5rem;
   display: block;
   transition: all 1s; }
 
 .form-input:placeholder-shown + label {
   opacity: 0;
   visibility: hidden; }
+
+.select {
+  font-size: .85em;
+  padding: .4rem;
+  border-radius: 2px;
+  border: none;
+  border-bottom: 2px solid transparent;
+  width: 90%;
+  background-color: rgba(255, 255, 255, 0.95);
+  display: block;
+  margin-bottom: 2rem; }
+  .select .select:focus {
+    outline: none;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    border-bottom: 3px solid #4c3d3d; }
 
 .buttons:link,
 .buttons:visited {
@@ -593,7 +608,6 @@ hr {
   font-weight: 200;
   text-transform: uppercase;
   letter-spacing: .1em;
-  margin: 1.5em;
   margin-right: 3rem; }
 
 .flight-btn:link,

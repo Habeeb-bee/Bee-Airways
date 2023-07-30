@@ -40,9 +40,10 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        height: 15rem;
+        height: 20rem;
     
     }
+
 
     .flight-form {
         width:50%;
@@ -52,7 +53,7 @@
     }
   
     .form-group:not(:last-child){
-        margin-bottom: 2rem;
+        margin-bottom: 1.8rem;
     }
 
     .form-input{
@@ -86,7 +87,7 @@
     .form-label {
         font-size: .7rem;
         font-weight: 700;
-        margin-right: 6.5rem;
+        margin-right: 8.5rem;
         display: block;
         transition:all 1s;
     }
@@ -98,4 +99,60 @@
         visibility: hidden;
 
     }
+
+    // // .form-radio {
+    // //    width: 0;
+
+    // // }
+
+    // .radio-btn {
+    //     height: 2rem;
+    //     width: 2rem;
+    //     padding: 5px 7px 3px 7px;
+    //     border: 5px solid $color-primary-deepbrown;
+    //     border-radius: 50%;
+    //     position: absolute;
+    //     left: 0;
+    //     right: 0;
+    
+    //     &::before {
+    //         padding-left: 2rem;
+    //     }
+
+    //     &::after {
+
+    //         content:"";
+    //         height: 1px;
+    //         width: 1px;
+    //         border-radius: 50%;
+    //         position: absolute;
+    //         top: 50%;
+    //         left: 0;
+    //         right: 0;
+    //         background-color: blue;
+
+    //     }
+    // }
+
+
+    .select{
+        font-size: .85em;
+        padding: .4rem;
+        border-radius: 2px;
+        border: none;
+        border-bottom: 2px solid transparent ;
+        width: 90%;
+        background-color: rgba(#fff, .95);
+        display: block;
+        margin-bottom: 2rem;
+
+        .select:focus{
+        outline: none;
+        box-shadow: 0 1rem 2rem rgba( black, .2);
+        border-bottom: 3px solid $color-primary-deepbrown;}
+    }
+
+
+
+
 
