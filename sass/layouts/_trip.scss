@@ -1,15 +1,16 @@
 
+.plan{
+  background-color: #fff7d4;
+  width: 95%;
+    margin: 0 auto;
+}
 .plan-disc {
     color: #221b1b;
     padding: 2rem 2rem .5rem 2rem;
-    background-color: #fff7d4;
-    width: 95%;
-    margin: 0 auto;
     font-weight: 700;
     font-size: 2em; }
   
   .container {
-    background-color: #fff7d4;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,9 +23,6 @@
   .trip-disc {
     color: #4c3d3d;
     padding: 2rem 2rem .5rem 2rem;
-    background-color: #fff7d4;
-    width: 95%;
-    margin: 0 auto;
     font-weight: 400; }
   
   .flex {
