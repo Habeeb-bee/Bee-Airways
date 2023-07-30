@@ -65,16 +65,19 @@ img {
   color: #fff; }
 
 .home-hero .t1 {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  padding: 5px;
+  line-height: 36px;
   font-weight: 500;
   animation: moveInLeft;
   animation-duration: 1s;
   animation-timing-function: ease-out; }
 
 .home-hero .title-span {
-  font-weight: 100;
+  font-weight: 300;
   display: block;
-  font-size: 1.2rem; }
+  font-size: 1.5rem;
+  line-height: 24px; }
 
 .home-hero .t2 {
   animation: moveInRight;
@@ -485,9 +488,20 @@ hr {
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
     border-bottom: 3px solid #4c3d3d; }
 
+.button-white {
+  display: inline-block;
+  padding: 10px 24px 11px 24px;
+  background-color: #fff;
+  color: #4c3d3d;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  animation: moveUp 1s;
+  animation-timing-function: ease-in-out;
+  font-size: 1rem;
+  font-weight: 400; }
+
 .buttons:link,
 .buttons:visited {
-  padding: .5em;
   border-radius: 100px;
   transition: all .4s;
   display: inline-block; }
@@ -499,16 +513,6 @@ hr {
 .buttons:active {
   transform: translateY(-1px);
   box-shadow: 0 5px 10px #0000003a; }
-
-.button-white {
-  background-color: #fff;
-  color: #4c3d3d;
-  letter-spacing: .1rem;
-  text-decoration: none;
-  animation: moveUp 1s;
-  animation-timing-function: ease-in-out;
-  font-size: 1rem;
-  font-weight: 400; }
 
 .flex-btn {
   display: inline-block;
