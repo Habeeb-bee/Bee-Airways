@@ -220,7 +220,7 @@ hr {
 
 .faq-head h2 {
   padding: 1em;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 500;
   background-color: #fff7d4;
   color: #221b1b; }
@@ -313,7 +313,7 @@ hr {
   transform: translateX(1rem); }
 
 .navigation .checkbox:checked ~ .nav-background {
-  transform: scale(80); }
+  transform: scale(100); }
 
 .navigation .checkbox:checked ~ .nav-nav {
   width: 100%;
@@ -353,6 +353,32 @@ hr {
 .navigation .checkbox:checked + .nav-button .nav-icon::after {
   top: 0;
   transform: rotate(-45deg); }
+
+@media (min-width: 40rem) {
+  .checkbox:checked ~ .nav-background {
+    transform: scale(100); }
+  .navigation .nav-link:link, .navigation .nav-link:visited {
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: .5rem;
+    font-weight: 300;
+    text-decoration: none;
+    background-image: linear-gradient(120deg, transparent 0%, transparent 50%, rgba(255, 217, 90, 0.678) 50%);
+    background-size: 250%;
+    transition: all .4s; } }
+
+@media (min-width: 60rem) {
+  .checkbox:checked ~ .nav-background {
+    transform: scale(100); }
+  .navigation .nav-link:link, .navigation .nav-link:visited {
+    display: inline-block;
+    font-size: 2rem;
+    padding: .8rem;
+    font-weight: 300;
+    text-decoration: none;
+    background-image: linear-gradient(120deg, transparent 0%, transparent 50%, rgba(255, 217, 90, 0.678) 50%);
+    background-size: 250%;
+    transition: all .4s; } }
 
 * {
   margin: 0;
