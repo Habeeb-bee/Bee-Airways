@@ -30,13 +30,32 @@
       animation-duration: 1s; }
   
 
-      
-@media (min-width:60rem) {
+          
+@media (min-width:40rem) {
   .home-hero .t1 {
-    font-size: 30px;
+    font-size: 2rem;
+    letter-spacing: .2em;
     padding: 5px;
   line-height: 36px;
     font-weight: 500;
+     }
+
+     .home-hero .title-span {
+      font-weight: 400;
+      display: block;
+      letter-spacing: .1em;
+      font-size: 1.5rem;
+      line-height: 28px; }
+
+   }
+      
+@media (min-width:60rem) {
+  .home-hero .t1 {
+    font-size: 3rem;
+    letter-spacing: .5em;
+    padding: 10px;
+  line-height: 36px;
+    font-weight: 700;
      }
 
      .home-hero .title-span {
@@ -46,3 +65,5 @@
       line-height: 28px; }
 
    }
+
+    

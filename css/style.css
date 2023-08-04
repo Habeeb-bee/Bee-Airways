@@ -83,12 +83,27 @@ img {
   animation: moveInRight;
   animation-duration: 1s; }
 
-@media (min-width: 60rem) {
+@media (min-width: 40rem) {
   .home-hero .t1 {
-    font-size: 30px;
+    font-size: 2rem;
+    letter-spacing: .2em;
     padding: 5px;
     line-height: 36px;
     font-weight: 500; }
+  .home-hero .title-span {
+    font-weight: 400;
+    display: block;
+    letter-spacing: .1em;
+    font-size: 1.5rem;
+    line-height: 28px; } }
+
+@media (min-width: 60rem) {
+  .home-hero .t1 {
+    font-size: 3rem;
+    letter-spacing: .5em;
+    padding: 10px;
+    line-height: 36px;
+    font-weight: 700; }
   .home-hero .title-span {
     font-weight: 400;
     display: block;
@@ -224,7 +239,7 @@ a {
 @media (min-width: 40rem) {
   .plan-disc {
     font-weight: 900;
-    font-size: 3em;
+    font-size: 1.5rem;
     padding: 2rem 2rem .5rem 2rem; }
   .trip-disc {
     padding: 1rem 2rem .5rem 2rem;
@@ -550,7 +565,7 @@ hr {
   animation: moveUp 1s;
   animation-timing-function: ease-in-out;
   font-size: 1rem;
-  font-weight: 400; }
+  font-weight: 300; }
 
 .buttons:link,
 .buttons:visited {
@@ -565,6 +580,32 @@ hr {
 .buttons:active {
   transform: translateY(-1px);
   box-shadow: 0 5px 10px #0000003a; }
+
+@media (min-width: 40rem) {
+  .button-white {
+    display: inline-block;
+    padding: 10px 24px 11px 24px;
+    background-color: #fff;
+    color: #4c3d3d;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    animation: moveUp 1s;
+    animation-timing-function: ease-in-out;
+    font-size: 1rem;
+    font-weight: 300; } }
+
+@media (min-width: 60rem) {
+  .button-white {
+    display: inline-block;
+    padding: 10px 24px 11px 24px;
+    background-color: #fff;
+    color: #4c3d3d;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    animation: moveUp 1s;
+    animation-timing-function: ease-in-out;
+    font-size: 1.5rem;
+    font-weight: 500; } }
 
 .flex-btn {
   display: inline-block;
