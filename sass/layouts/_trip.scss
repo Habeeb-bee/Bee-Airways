@@ -7,7 +7,7 @@
 .plan-disc {
     color: #221b1b;
     padding: 2rem 2rem .5rem 2rem;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 2em; }
   
   .container {
@@ -22,7 +22,7 @@
   
   .trip-disc {
     color: #4c3d3d;
-    padding: 2rem 2rem .5rem 2rem;
+    padding: .5rem 2rem .5rem 2rem;
     font-weight: 400; }
   
   .flex {
@@ -67,19 +67,20 @@
 @media (min-width:40rem) {
 
   .plan-disc {
-    font-weight: 800;
-    font-size: 2.4em; }
+    padding: 2rem 2rem 1rem 2rem;
+    font-weight: 700;
+    font-size: 2.3em; }
 }
 
-@media (min-width:40rem) {
+@media (min-width:60rem) {
 
   .plan-disc {
     font-weight: 900;
-    font-size: 1.5rem;
-    padding: 2rem 2rem .5rem 2rem; }
+    font-size: 2.5rem;
+    padding: 2rem 2rem 0rem 2rem; }
 
     .trip-disc {
-      padding: 1rem 2rem .5rem 2rem;
+      padding: 1rem 2rem 2rem 2rem;
       font-weight: 600; }
 }
   
