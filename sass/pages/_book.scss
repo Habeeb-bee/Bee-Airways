@@ -84,17 +84,17 @@
 
 
     .form-label {
-        font-size: .7rem;
+        font-size: .5rem;
         font-weight: 700;
-        margin-right: 6.5rem;
+        margin-right: 6.5rem !important;
         display: block;
         transition:all 1s;
     }
 
     .form-label-2 {
-        font-size: .7rem;
+        font-size: .7rem !important;
         font-weight: 700;
-        margin-right: 5rem;
+        margin-right: 5rem !important;
         display: block;
         transition:all 1s;
     }
@@ -104,4 +104,3 @@
         visibility: hidden;
 
     }
-
