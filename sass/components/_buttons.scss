@@ -186,6 +186,28 @@
     
      }
   
+     
+  @media (min-width:60rem) {
+
+
+    .book-btn {
+      background-color: #4c3d3d;
+      color: #ffffffdc;
+      text-decoration: none;
+      animation: moveUp .3s;
+      animation-timing-function: ease-in-out;
+      font-size: 1.2rem;
+      padding: .8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .3em;
+      margin: 3.5em; 
+      margin-right: 8rem;
+    }
+    
+    
+     }
+  
 
 
   

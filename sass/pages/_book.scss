@@ -150,7 +150,47 @@
   
   @media (min-width:60rem) {
   
+    .book-container{
+        padding: 10rem 0;
+        width: 75%;
+        margin: 0 auto;
+        
+    }
+  
+    .book{
+   height: 30rem;
+    }
+
     
+    .form-group:not(:last-child){
+        margin-bottom: 5rem !important;
+        margin-top: 3rem;
+    }
+
+    
+    .form-input{
+        font-size: 1em !important;
+        padding: .8rem !important;
+       
+       
+    }
+
+    
+    .form-label {
+        font-size: .85rem !important;
+        font-weight: 700;
+        margin-right: 17.8rem !important;
+        display: block;
+        transition:all 1s;
+    }
+
+    .form-label-2 {
+        font-size: .85rem !important;
+        font-weight: 700;
+        margin-right: 16.5rem !important;
+        display: block;
+        transition:all 1s;
+    }
     
   }
   
