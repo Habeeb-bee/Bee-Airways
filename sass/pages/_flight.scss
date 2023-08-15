@@ -34,10 +34,10 @@
 
         border-radius: 0.4rem;
         background-image: linear-gradient(105deg,
-         rgba(#fff, .7) 0%,
-         rgba(#fff, .7) 50%,
-         transparent 50%),url(../img/flight-img.jpg);
-        background-size: cover;
+        rgba(#a09f9f, .7) 0%,
+        rgba(#fff, .7) 50%,
+        transparent 50%),url(../img/flight-img.jpg);
+       background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
         height: 20rem;
@@ -87,10 +87,17 @@
     .form-label {
         font-size: .7rem;
         font-weight: 700;
-        margin-right: 8.5rem;
+        margin-right: 9rem !important;
         display: block;
         transition:all 1s;
     }
+
+    .form-label1 {
+        font-size: .7rem;
+        font-weight: 700;
+        margin-right: 9rem !important;
+        display: block;
+        transition:all 1s; }
 
    
 
@@ -152,6 +159,46 @@
         border-bottom: 3px solid $color-primary-deepbrown;}
     }
 
+
+    
+@media (min-width:40rem) {
+
+    
+    .flight{
+        height: 25rem;
+    
+    }
+
+    .form-input{
+        font-size: 1em;}
+
+        .form-label {
+       
+            font-size: 1em;
+            margin-right: 8rem !important;
+            
+        }
+
+        .form-label1{
+
+       
+            font-size: 1em;
+            margin-right: 16.5rem !important;
+            
+        }
+  }
+  
+  @media (min-width:60rem) {
+  
+    
+
+    
+    
+    
+
+
+  }
+  
 
 
 
