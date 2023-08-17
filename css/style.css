@@ -620,6 +620,25 @@ a {
     font-size: 1em;
     margin-right: 16.5rem !important; } }
 
+@media (min-width: 60rem) {
+  .flight-container {
+    padding: 10rem 0;
+    width: 80%;
+    margin: 0 auto; }
+  .flight {
+    height: 32rem; }
+  .form-input {
+    font-size: 1.2em; }
+  .form-label {
+    font-size: 1em;
+    margin-right: 28rem !important; }
+  .form-label1 {
+    font-size: 1em;
+    margin-right: 36.5rem !important; }
+  .select {
+    font-size: 1rem;
+    padding: .7rem; } }
+
 .button-white {
   display: inline-block;
   padding: 10px 24px 11px 24px;
