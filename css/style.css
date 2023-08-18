@@ -622,11 +622,11 @@ a {
 
 @media (min-width: 60rem) {
   .flight-container {
-    padding: 10rem 0;
+    padding: 15rem 0;
     width: 80%;
     margin: 0 auto; }
   .flight {
-    height: 32rem; }
+    height: 36rem; }
   .form-input {
     font-size: 1.2em; }
   .form-label {
@@ -832,3 +832,33 @@ a {
 .flight-btn:active {
   transform: translateY(-1px);
   box-shadow: 0 5px 10px #0000003a; }
+
+@media (min-width: 40rem) {
+  .flight-btn {
+    background-color: #4c3d3d;
+    color: #ffffffdc;
+    text-decoration: none;
+    animation: moveUp .3s;
+    animation-timing-function: ease-in-out;
+    font-size: .9rem;
+    padding: .6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    margin: 1em;
+    margin-right: 5rem; } }
+
+@media (min-width: 60rem) {
+  .flight-btn {
+    background-color: #4c3d3d;
+    color: #ffffffdc;
+    text-decoration: none;
+    animation: moveUp .3s;
+    animation-timing-function: ease-in-out;
+    font-size: 1.2rem;
+    padding: .8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    margin: 2em;
+    margin-right: 8rem; } }
