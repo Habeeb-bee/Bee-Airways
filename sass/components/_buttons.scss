@@ -6,17 +6,16 @@
   color: #4c3d3d;
   letter-spacing: .1rem;
   text-decoration: none;
-  animation: moveUp 1s;
+  animation: moveUp .7s;
   animation-timing-function: ease-in-out;
   font-size: 1rem;
-  font-weight: 300; }
-
-  
-.buttons:link,
-.buttons:visited {
+  cursor: pointer;
+  font-weight: 300;
   border-radius: 100px;
   transition: all .4s;
   display: inline-block; }
+
+
 
 .buttons:hover {
   transform: translateY(-3px);

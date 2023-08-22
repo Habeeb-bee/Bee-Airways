@@ -1,3 +1,11 @@
+'use strict';
+
+
+
+
+
+
+
 let submit = document.querySelector(".flight-btn");
 submit.addEventListener("click", (e) =>
 {    e.preventDefault(); 

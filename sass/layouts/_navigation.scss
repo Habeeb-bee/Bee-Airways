@@ -17,7 +17,7 @@
         border-radius: 50%;
         top: 1rem;
         right: 1rem;
-        z-index: 2000;
+        z-index: 1000;
         box-shadow: 0 1rem 3rem #00000033;
         text-align: center;
         cursor: pointer;
@@ -46,7 +46,7 @@
     position: fixed;
     top: 0;
     right: 0;
-    z-index: 1500;
+    z-index: 500;
     transition: all .4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
