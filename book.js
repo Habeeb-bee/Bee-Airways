@@ -1,6 +1,5 @@
 'use strict';
 
-
 let openButton = document.querySelector('.button-white')
 let show = document.querySelector('.book-container');
 let overLay = document.querySelector('.overlay')

@@ -496,16 +496,16 @@ body {
     border-bottom: 3px solid rgba(255, 0, 0, 0.767); }
 
 .form-label {
-  font-size: .5rem;
+  font-size: .7rem;
   font-weight: 700;
-  margin-right: 6.5rem !important;
+  margin-right: 5.5rem !important;
   display: block;
   transition: all 1s; }
 
 .form-label-2 {
   font-size: .7rem !important;
   font-weight: 700;
-  margin-right: 5rem !important;
+  margin-right: 4rem !important;
   display: block;
   transition: all 1s; }
 
@@ -516,6 +516,11 @@ body {
 @media (min-width: 40rem) {
   .book {
     height: 20rem; }
+  .close-book {
+    position: absolute;
+    top: 0rem;
+    right: .7rem;
+    font-size: 2.8rem; }
   .form-group:not(:last-child) {
     margin-bottom: 3rem !important;
     margin-top: 1rem; }
@@ -525,23 +530,27 @@ body {
   .form-label {
     font-size: .85rem !important;
     font-weight: 700;
-    margin-left: -7.5rem !important;
+    margin-left: -3.8rem !important;
     display: block;
     transition: all 1s; }
   .form-label-2 {
     font-size: .85rem !important;
     font-weight: 700;
-    margin-left: -7rem !important;
+    margin-left: -6rem !important;
     display: block;
     transition: all 1s; } }
 
 @media (min-width: 60rem) {
   .book-container {
-    padding: 10rem 0;
     width: 75%;
     margin: 0 auto; }
   .book {
     height: 30rem; }
+  .close-book {
+    position: absolute;
+    top: 0rem;
+    right: 1rem;
+    font-size: 3rem; }
   .form-group:not(:last-child) {
     margin-bottom: 5rem !important;
     margin-top: 3rem; }
@@ -606,14 +615,14 @@ body {
   .form-input:focus:focus:invalid {
     border-bottom: 3px solid rgba(255, 0, 0, 0.767); }
 
-.form-label {
+.form-label1 {
   font-size: .7rem;
   font-weight: 700;
   margin-right: 9rem !important;
   display: block;
   transition: all 1s; }
 
-.form-label1 {
+.form-label2 {
   font-size: .7rem;
   font-weight: 700;
   margin-right: 9rem !important;
