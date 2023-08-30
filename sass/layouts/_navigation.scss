@@ -8,13 +8,23 @@
     position: fixed;
 }
 
-.navigation {
+ .hide {
+        background-color: transparent;
+    }
 
+.navigation {
+background-color: blue;
+padding: 2em;
+width: 100vw;
+left: 0;
+position: fixed;
     .checkbox {
         display: none;
         
 
     }
+
+   
 
     .nav-button {
         background-color: #fff7d4;
