@@ -67,13 +67,13 @@ img {
 .home-hero .t1 {
   padding: 5px;
   line-height: 36px;
-  font-weight: 500;
   animation: moveInLeft;
   animation-duration: 1s;
   animation-timing-function: ease-out; }
 
 .home-hero .title-span {
   font-weight: 300;
+  font-size: 22px;
   display: block;
   line-height: 24px; }
 
@@ -288,6 +288,15 @@ a {
 @media (min-width: 60rem) {
   .faq-head h2 {
     padding: 1em; } }
+
+.logo {
+  z-index: 1000;
+  top: 1rem;
+  left: 1rem;
+  width: 3.5rem;
+  color: #fff7d4;
+  position: absolute;
+  position: fixed; }
 
 .navigation .checkbox {
   display: none; }
