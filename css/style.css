@@ -291,9 +291,9 @@ a {
 
 .logo {
   z-index: 1000;
-  top: 1rem;
+  top: .7rem;
   left: 1rem;
-  width: 3.5rem;
+  width: 3rem;
   color: #fff7d4;
   position: absolute;
   position: fixed; }
@@ -302,20 +302,21 @@ a {
   background-color: transparent; }
 
 .navigation {
-  background-color: blue;
+  background-color: #463737cc;
   padding: 2em;
   width: 100vw;
   left: 0;
+  z-index: 1000;
   position: fixed; }
   .navigation .checkbox {
     display: none; }
   .navigation .nav-button {
     background-color: #fff7d4;
-    height: 3.5rem;
-    width: 3.5rem;
+    height: 3rem;
+    width: 3rem;
     position: fixed;
     border-radius: 50%;
-    top: 1rem;
+    top: .5rem;
     right: 1rem;
     z-index: 1000;
     box-shadow: 0 1rem 3rem #00000033;
@@ -326,8 +327,8 @@ a {
     width: 2rem;
     border-radius: 50%;
     position: fixed;
-    top: 2rem;
-    right: 2rem;
+    top: 1rem;
+    right: 1rem;
     background-image: radial-gradient(rgba(146, 97, 0, 0.966), rgba(255, 217, 90, 0.938));
     transition: all 0.4s cubic-bezier(0.86, 0, 0.07, 1); }
   .navigation .nav-nav {
@@ -368,10 +369,10 @@ a {
     opacity: 1; }
   .navigation .nav-icon {
     position: relative;
-    margin-top: 1.8rem; }
+    margin-top: 1.5rem; }
     .navigation .nav-icon, .navigation .nav-icon::before, .navigation .nav-icon::after {
-      width: 1.7rem;
-      height: 1.5px;
+      width: 1.5rem;
+      height: 1px;
       background-color: #4c3d3d;
       display: inline-block; }
     .navigation .nav-icon::before, .navigation .nav-icon::after {
@@ -399,6 +400,19 @@ a {
 @media (min-width: 40rem) {
   .checkbox:checked ~ .nav-background {
     transform: scale(100); }
+  .nav-button {
+    height: 3.3rem;
+    width: 3.3rem;
+    top: .5rem;
+    right: 1rem; }
+  .nav-icon {
+    position: relative;
+    margin-top: 1.5rem; }
+    .nav-icon, .nav-icon::before, .nav-icon::after {
+      width: 1.7rem;
+      height: 1px;
+      background-color: #4c3d3d;
+      display: inline-block; }
   .navigation .nav-link:link, .navigation .nav-link:visited {
     display: inline-block;
     font-size: 1.5rem;
