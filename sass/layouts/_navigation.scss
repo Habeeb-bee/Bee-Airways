@@ -8,16 +8,19 @@
     position: fixed;
 }
 
- .hide {
-        background-color: transparent;
-    }
-
-.navigation {
-background-color:   #463737cc;
+.show {
+    background-color:   #463737cc;
 padding: 2em;
 width: 100vw;
 left: 0;
 z-index: 1000;
+transition: all 350ms;
+}
+
+.navigation {
+
+
+
 position: fixed;
     .checkbox {
         display: none;

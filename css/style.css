@@ -196,7 +196,7 @@ a {
   width: 30em; }
 
 .flex-item {
-  background-color: #fff;
+  background-color: #e2e2e2;
   border-radius: 0.4rem;
   overflow: hidden;
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.2);
@@ -298,15 +298,15 @@ a {
   position: absolute;
   position: fixed; }
 
-.hide {
-  background-color: transparent; }
-
-.navigation {
+.show {
   background-color: #463737cc;
   padding: 2em;
   width: 100vw;
   left: 0;
   z-index: 1000;
+  transition: all 350ms; }
+
+.navigation {
   position: fixed; }
   .navigation .checkbox {
     display: none; }

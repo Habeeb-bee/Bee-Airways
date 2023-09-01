@@ -26,3 +26,11 @@ document.addEventListener('keydown', function (e) {
     }
     
 })
+
+
+
+window.addEventListener("scroll", function (e) {
+    const nav = document.querySelector(".navigation");
+    nav.classList.toggle('show', window.scrollY > 0)
+    console.log('scrolled')
+})
