@@ -1,9 +1,10 @@
 'use strict';
 
-let openButton = document.querySelector('.button-white')
+let openButton = document.querySelector('.button-white');
 let show = document.querySelector('.book-container');
-let overLay = document.querySelector('.overlay')
-let close = document.querySelector('.close-book')
+let overLay = document.querySelector('.overlay');
+let close = document.querySelector('.close-book');
+let reveal = document.querySelector('.reveal');
 
 const open = function () {
     show.classList.remove('hidden')
@@ -17,6 +18,7 @@ const unOpen = function () {
 
 
 openButton.addEventListener('click', open);
+reveal.addEventListener('click', open);
 close.addEventListener('click', unOpen)
 overLay.addEventListener('click', unOpen)
 
@@ -26,7 +28,6 @@ document.addEventListener('keydown', function (e) {
     }
     
 })
-
 
 
 window.addEventListener("scroll", function (e) {
