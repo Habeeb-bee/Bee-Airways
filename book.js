@@ -18,7 +18,6 @@ const unOpen = function () {
 
 
 openButton.addEventListener('click', open);
-reveal.addEventListener('click', open);
 close.addEventListener('click', unOpen)
 overLay.addEventListener('click', unOpen)
 
@@ -29,9 +28,17 @@ document.addEventListener('keydown', function (e) {
     
 })
 
+reveal.addEventListener('click', function (e) {
+    e.preventDefault(); 
+    open()
+
+   
+});
+
 
 window.addEventListener("scroll", function (e) {
     const nav = document.querySelector(".navigation");
     nav.classList.toggle('show', window.scrollY > 0)
     console.log('scrolled')
 })
+
