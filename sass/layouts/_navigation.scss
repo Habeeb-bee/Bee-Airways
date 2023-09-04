@@ -141,8 +141,8 @@ position: fixed;
          transition: all .25s;
     }
 
-    &::before{ top: -.8rem;}
-    &::after{ top: .8rem;}
+    &::before{ top: -.7rem;}
+    &::after{ top: .7rem;}
 }
 
 .nav-button:hover .nav-icon::before {

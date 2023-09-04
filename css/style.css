@@ -83,29 +83,25 @@ img {
 
 @media (min-width: 40rem) {
   .home-hero .t1 {
-    font-size: 2.5rem;
+    width: 70vw;
     letter-spacing: .3em;
-    padding: 5px;
-    line-height: 36px;
-    font-weight: 600; }
-  .home-hero .title-span {
-    font-weight: 400;
-    display: block;
-    font-size: 1.5rem;
-    line-height: 28px; } }
-
-@media (min-width: 60rem) {
-  .home-hero .t1 {
-    font-size: 3rem;
-    letter-spacing: .3em;
-    padding: 1rem;
-    line-height: 36px;
-    font-weight: 700; }
+    padding: 5px; }
   .home-hero .title-span {
     font-weight: 400;
     display: block;
     font-size: 2rem;
     line-height: 28px; } }
+
+@media (min-width: 60rem) {
+  .home-hero .t1 {
+    width: 55vw;
+    padding: 1rem;
+    line-height: 36px; }
+  .home-hero .title-span {
+    font-weight: 400;
+    display: block;
+    font-size: 2.8rem;
+    line-height: 4rem; } }
 
 #cta {
   background-color: transparent;
@@ -381,9 +377,9 @@ a {
       position: absolute;
       transition: all .25s; }
     .navigation .nav-icon::before {
-      top: -.8rem; }
+      top: -.7rem; }
     .navigation .nav-icon::after {
-      top: .8rem; }
+      top: .7rem; }
   .navigation .nav-button:hover .nav-icon::before {
     top: -1rem; }
   .navigation .nav-button:hover .nav-icon::after {
