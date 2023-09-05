@@ -221,23 +221,86 @@ position: fixed;
 } }
 
 @media (min-width:60rem) {
-    .checkbox:checked ~ .nav-background {
-        transform: scale(100);
-       
-    }
-
+  
+    .logo{
+        z-index: 1000;
+         top: .7rem;
+        left: 1rem;
+        width: 4rem;
     
-    .navigation .nav-link{
-    &:link,
-    &:visited{
-        display: inline-block;
-        font-size: 2rem;
-        padding: .8rem;
-        font-weight: 300;
-        text-decoration: none;
-        background-image: linear-gradient( 120deg, transparent 0%, transparent 50%, $color-primary-lightbrown 50%);
-        background-size: 250%;
-        transition: all .4s;
+      
     }
 
-} }
+    .show {
+    padding: 2.5em;
+    }
+
+    .navigation{
+        
+        .checkbox:checked ~ .nav-background {
+            transform: scale(100);
+           
+        }
+        .nav-button {
+        background-color: #fff7d4;
+        height: 4rem;
+        width: 4rem;
+        position: fixed;
+        border-radius: 50%;
+        top: .5rem;
+        right: 1rem;
+        z-index: 1000;
+        box-shadow: 0 1rem 3rem #00000033;
+        text-align: center;
+        cursor: pointer;}
+
+        .nav-background{
+
+            height: 2rem;
+            width: 2rem;
+            top: 1.5rem;
+            right: 2rem;
+            
+        }
+
+
+        .nav-link{
+            &:link,
+            &:visited{
+                display: inline-block;
+                font-size: 2rem;
+                padding: .8rem;
+                font-weight: 300;
+                text-decoration: none;
+                background-image: linear-gradient( 120deg, transparent 0%, transparent 50%, $color-primary-lightbrown 50%);
+                background-size: 250%;
+                transition: all .4s;
+            }
+        }
+
+
+        .nav-icon{
+            position: relative;
+            margin-top: 2rem;
+        
+        
+            &,
+            &::before,
+            &::after {
+                width: 2.3rem;
+                height: 2px;
+              
+            }
+        
+            &::before{ top: -.8rem;}
+            &::after{ top: .9rem;}
+
+
+        }
+
+
+
+        
+        
+    }
+}
