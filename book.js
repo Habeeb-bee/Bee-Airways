@@ -42,3 +42,5 @@ window.addEventListener("scroll", function (e) {
    
 })
 
+
+// remember to edit the nav onClick
